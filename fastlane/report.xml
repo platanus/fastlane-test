@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+      
+      <testcase classname="fastlane.lanes" name="0: Verifying required fastlane version" time="0.000795">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000304">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: cordova_get_app_name" time="0.221398">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: cordova_get_app_id" time="0.006603">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="4: produce" time="5.337888">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="5: cordova_get_app_name" time="0.015853">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="6: cordova_get_app_id" time="0.012812">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="7: produce" time="3.686819">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>
