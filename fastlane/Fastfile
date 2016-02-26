@@ -1,1 +1,4 @@
-import "/Users/jidonoso/src/fastlane-base/fastlane/Fastfile"
+import_from_git(
+  url: '/Users/jidonoso/src/fastlane-cordova/fastlane/Fastfile'
+  branch: 'ci'
+)

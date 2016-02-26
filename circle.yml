@@ -1,0 +1,19 @@
+machine:
+  xcode:
+    version: 7.2
+
+dependencies:
+  pre:
+    - npm install -g cordova bower
+    - npm install
+    - bower install
+    - mkdir www
+    - cordova platform add ios
+
+database:
+  override:
+    - echo "Skipping database"
+
+test:
+  override:
+    - bin/cibuild
